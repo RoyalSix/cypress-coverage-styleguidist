@@ -1,16 +1,15 @@
 {
-  "name": "react-styleguidist-example-basic",
-  "description": "React styleguidist basic example",
+  "name": "cypress-coverage-styleguidist",
+  "description": "React styleguidist basic example w/ cypress coverage",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/styleguidist/react-styleguidist",
+  "homepage": "https://github.com/RoyalSix/cypress-coverage-styleguidist",
   "author": {
-    "name": "Artem Sapegin",
-    "url": "http://sapegin.me/"
+    "name": "Jay Scott"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/styleguidist/react-styleguidist.git"
+    "url": "git://github.com/RoyalSix/cypress-coverage-styleguidist.git"
   },
   "license": "MIT",
   "engines": {
@@ -21,10 +20,11 @@
     "styleguide:build": "styleguidist build",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "nyc:report": "nyc report --reporter=text-summary",
+    "nyc:report": "nyc report",
     "test": "start-test 6060 cypress:run && npm run nyc:report"
   },
   "dependencies": {
+    "@material-ui/core": "^4.7.0",
     "cypress": "^3.6.1",
     "dog-names": "^2.0.0",
     "lodash": "^4.17.15",
