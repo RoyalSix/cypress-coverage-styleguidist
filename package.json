@@ -21,7 +21,8 @@
     "styleguide:build": "styleguidist build",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test": "start-test 6060 cypress:open"
+    "nyc:report": "nyc report --reporter=text-summary",
+    "test": "start-test 6060 cypress:run && npm run nyc:report"
   },
   "dependencies": {
     "cypress": "^3.6.1",

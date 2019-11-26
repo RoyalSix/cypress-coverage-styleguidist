@@ -7,10 +7,10 @@ See [deployed version](https://react-styleguidist.js.org/examples/basic/).
 How to start locally:
 
 ```
-git clone https://github.com/styleguidist/react-styleguidist.git
-cd react-styleguidist/examples/basic
+git clone git@github.com:RoyalSix/cypress-coverage-styleguidist.git
+cd cypress-coverage-styleguidist
 npm install
-npx styleguidist server
+npm test
 ```
 
 Then open [http://localhost:6060](http://localhost:6060) in your browser.
